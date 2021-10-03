@@ -1,6 +1,6 @@
 // defines pins numbers
-const int trigPin = 9;
-const int echoPin = 10;
+const int trigPin = 9; //connect this to pin no 9 its working as echo for sensor
+const int echoPin = 10;//connect this to pin no 10 its working as trigger for sensor
 // defines variables
 long duration;
 int distance;

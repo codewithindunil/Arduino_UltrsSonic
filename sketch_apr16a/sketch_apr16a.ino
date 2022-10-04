@@ -23,5 +23,6 @@ duration = pulseIn(echoPin, HIGH);
 distance= duration*0.034/2;
 // Prints the distance on the Serial Monitor
 Serial.print("Distance: "+distance+"cm");
+Serial.print("Distance: "+distance/100+"m");
 
 }

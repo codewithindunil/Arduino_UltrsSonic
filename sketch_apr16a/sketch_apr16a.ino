@@ -10,10 +10,8 @@ void setup() {
   Serial.begin(9600); // Starts the serial communication
 }
 void loop() {
-// Clears the trigPin
 digitalWrite(trigPin, LOW);
 delayMicroseconds(2);
-// Sets the trigPin on HIGH state for 10 micro seconds
 digitalWrite(trigPin, HIGH);
 delayMicroseconds(10);
 digitalWrite(trigPin, LOW);
